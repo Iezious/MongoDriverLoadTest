@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": [ "async.bat", "sync.bat", "flood.bat" ]
+  },
+
+  "dependencies": {
+    "MongoDB.Bson": "2.2.4",
+    "MongoDB.Driver": "2.2.4"
+  },
+
+  "publishOptions": {
+    "include": [ "async.bat", "sync.bat", "flood.bat" ]
+  },
+
+  "frameworks": {
+    "net461": {
+      
+    }
+  }
+}
